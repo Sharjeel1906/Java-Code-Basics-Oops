@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "eq_solving",
+            "request": "launch",
+            "mainClass": "Equation_solving.eq_solving",
+            "projectName": "java_projects(1)_7ac15279"
+        },
+        {
+            "type": "java",
             "name": "Regex",
             "request": "launch",
             "mainClass": "Regular_exp.Regex",
