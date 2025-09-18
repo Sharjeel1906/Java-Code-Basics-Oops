@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "client",
+            "request": "launch",
+            "mainClass": "client",
+            "projectName": "java_projects(1)_7ac15279"
+        },
+        {
+            "type": "java",
+            "name": "server",
+            "request": "launch",
+            "mainClass": "server",
+            "projectName": "java_projects(1)_7ac15279"
+        },
+        {
+            "type": "java",
             "name": "eq_solving",
             "request": "launch",
             "mainClass": "Equation_solving.eq_solving",
