@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "add",
+            "request": "launch",
+            "mainClass": "add",
+            "projectName": "java_projects(1)_7ac15279"
+        },
+        {
+            "type": "java",
+            "name": "talha_link",
+            "request": "launch",
+            "mainClass": "talha_link",
+            "projectName": "java_projects(1)_7ac15279"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListMain",
+            "request": "launch",
+            "mainClass": "Linked_list.LinkedListMain",
+            "projectName": "java_projects(1)_7ac15279"
+        },
+        {
+            "type": "java",
+            "name": "linked_list",
+            "request": "launch",
+            "mainClass": "Linked_list.linked_list",
+            "projectName": "java_projects(1)_7ac15279"
+        },
+        {
+            "type": "java",
             "name": "client",
             "request": "launch",
             "mainClass": "client",
