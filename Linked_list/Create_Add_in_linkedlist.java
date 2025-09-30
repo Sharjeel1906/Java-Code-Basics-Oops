@@ -51,7 +51,7 @@ public class Create_Add_in_linkedlist {
         }
             smallest_index = refrences(linked_list, smallest_index);
             display(linked_list, linked_list.size());
-             sorted_arr(linked_list, linked_list.size(), smallest_index);
+            sorted_arr(linked_list, linked_list.size(), smallest_index);
         } 
         else {
             System.out.println("Thank you !");

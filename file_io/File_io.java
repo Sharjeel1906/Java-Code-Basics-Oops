@@ -8,7 +8,7 @@ public class File_io {
         FileWriter writer = new FileWriter("output.txt");
         writer.write("hello world");
         writer.close();
-File myfile = new File("        C:\\Users\\97155\\java_projects\\output.txt");
+File myfile = new File("C:\\Users\\97155\\java_projects\\output.txt");
         Scanner read = new Scanner(myfile);
         read.close();
     }

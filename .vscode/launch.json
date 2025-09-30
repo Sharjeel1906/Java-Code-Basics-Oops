@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Binary_Search_Tree",
+            "request": "launch",
+            "mainClass": "Binary_search_tree.Binary_Search_Tree",
+            "projectName": "java_projects(1)_7ac15279"
+        },
+        {
+            "type": "java",
+            "name": "Create_Add_in_linkedlist",
+            "request": "launch",
+            "mainClass": "Linked_list.Create_Add_in_linkedlist",
+            "projectName": "java_projects(1)_7ac15279"
+        },
+        {
+            "type": "java",
             "name": "add",
             "request": "launch",
             "mainClass": "add",
