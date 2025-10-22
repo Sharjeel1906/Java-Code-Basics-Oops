@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Challange_menu_display",
+            "request": "launch",
+            "mainClass": "Structured_file_accessing.Challange_menu_display",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Month_wise_sale_amount",
+            "request": "launch",
+            "mainClass": "Structured_file_accessing.Month_wise_sale_amount",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Region_wise_sale_amount",
+            "request": "launch",
+            "mainClass": "Structured_file_accessing.Region_wise_sale_amount",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Product_wise_sale_amount",
+            "request": "launch",
+            "mainClass": "Structured_file_accessing.Product_wise_sale_amount",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Employee_wise_sale_amount",
+            "request": "launch",
+            "mainClass": "Structured_file_accessing.Employee_wise_sale_amount",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Total_sales_amount",
+            "request": "launch",
+            "mainClass": "Structured_file_accessing.Total_sales_amount",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Total_sales",
+            "request": "launch",
+            "mainClass": "Structured_file_accessing.Total_sales",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Hamming_Algo",
+            "request": "launch",
+            "mainClass": "Hamming_Algo",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Hamming_Algo",
+            "request": "launch",
+            "mainClass": "Hamming_Algo",
+            "projectName": "java_projects(1)_7ac15279"
+        },
+        {
+            "type": "java",
             "name": "Binary_Search_Tree",
             "request": "launch",
             "mainClass": "Binary_search_tree.Binary_Search_Tree",
