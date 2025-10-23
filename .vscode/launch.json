@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Days_wise_sale_amount",
+            "request": "launch",
+            "mainClass": "Structured_file_accessing.Days_wise_sale_amount",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
             "name": "Challange_menu_display",
             "request": "launch",
             "mainClass": "Structured_file_accessing.Challange_menu_display",
