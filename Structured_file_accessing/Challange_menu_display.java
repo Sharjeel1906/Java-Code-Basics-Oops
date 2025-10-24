@@ -1,5 +1,4 @@
 package Structured_file_accessing;
-
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
