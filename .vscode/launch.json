@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EBookInfo",
+            "request": "launch",
+            "mainClass": "classes.book.EBookInfo",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "HammingAlgo",
+            "request": "launch",
+            "mainClass": "Hamming_Algo.HammingAlgo",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Structured_File",
+            "request": "launch",
+            "mainClass": "Structured_file_accessing.Structured_File",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
             "name": "Days_wise_sale_amount",
             "request": "launch",
             "mainClass": "Structured_file_accessing.Days_wise_sale_amount",

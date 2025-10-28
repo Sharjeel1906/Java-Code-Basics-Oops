@@ -2,6 +2,7 @@ package classes.book;
 import java.io.File;
 import java.util.Scanner;
 import java.awt.Desktop;
+
 class Book {
    
     private static int number_of_books=0;
@@ -23,19 +24,17 @@ class Book {
         this(book_name,book_author,book_publisher,book_pages,0);
     }
 
-
     public String book_name = "Concepts of Java";
     public String book_author = "Paul Dietel";
     public String book_publisher = "Pakistan Publishers";
     public double book_price  = 500;
     public double book_pages = 1000;
-    
-   
 
     int get_no_of_books(){
         return number_of_books;
     }
 }
+
 class eBook extends Book {
      public eBook(){};
 
@@ -61,11 +60,11 @@ class eBook extends Book {
             System.out.println(e.getMessage());
         }
      }
+
      public void display_notepad(String path){
         String file_path = "notepad "+path;
         try{
             Runtime.getRuntime().exec(file_path);
-            //Process proc = run.exec(file_path);
         }
         catch(Exception e){
             System.out.println(e.getMessage());
@@ -73,7 +72,7 @@ class eBook extends Book {
      }
 
      public void open_diff_files(String path){
-            try {
+        try {
             File file = new File(path);
             if (file.exists() && Desktop.isDesktopSupported()) {
                 Desktop.getDesktop().open(file);
@@ -83,7 +82,28 @@ class eBook extends Book {
         } catch (Exception e) {
             System.out.println("Error: " + e.getMessage());
         }
-
      }
-    
+}
+
+public class EBookInfo {
+    public static void main(String[] args) {
+        eBook myEBook = new eBook("Java Basics","Sharjeel Ahmed","OOP Publisher",200,400,"C:\\Books");
+
+        System.out.println("Book Name: " + myEBook.book_name);
+        System.out.println("Author: " + myEBook.book_author);
+        System.out.println("Publisher: " + myEBook.book_publisher);
+        System.out.println("Pages: " + myEBook.book_pages);
+        System.out.println("Price: " + myEBook.book_price);
+
+        String filePath = "D:\\One_drive_code\\java_projects(1)\\file_io\\sample.txt"; 
+
+        System.out.println("\nDisplaying content in console:");
+        myEBook.display_console(filePath);
+
+        System.out.println("\nOpening in Notepad:");
+        myEBook.display_notepad(filePath);
+
+        System.out.println("\nOpening with default program:");
+        myEBook.open_diff_files(filePath);
+    }
 }
