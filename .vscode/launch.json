@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "calendar_print",
+            "request": "launch",
+            "mainClass": "calendar_print",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "CalendarGenerator",
+            "request": "launch",
+            "mainClass": "CalendarGenerator",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
             "name": "EBookInfo",
             "request": "launch",
             "mainClass": "classes.book.EBookInfo",
