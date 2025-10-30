@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Bit_wise_oper",
+            "request": "launch",
+            "mainClass": "Bit_wise_oper",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Structuredfile",
+            "request": "launch",
+            "mainClass": "Structuredfile",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
             "name": "calendar_print",
             "request": "launch",
             "mainClass": "calendar_print",
