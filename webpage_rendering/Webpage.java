@@ -1,37 +1,40 @@
 package webpage_rendering;
+
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.awt.Desktop;
 import java.io.FileWriter;
-import java.net.URL;
 import java.io.File;
+import java.net.URL;
+import java.awt.Desktop;
+
 public class Webpage {
     public static void main(String[] args) {
         try {
             URL url = new URL("https://www.coursera.org/");
-            InputStreamReader in = new InputStreamReader(url.openStream());
-            BufferedReader out = new BufferedReader(in);
+            //Open the website
+            InputStreamReader inputStream = new InputStreamReader(url.openStream());
+            BufferedReader reader = new BufferedReader(inputStream);
+
+            //FileWriter to save webpage content
             FileWriter writer = new FileWriter("webpage.html");
+
             String line;
-
-            while ((line = out.readLine()) != null) {
-                writer.write(line);
+            while ((line = reader.readLine()) != null) {
+                writer.write(line + "\n"); 
             }
+            reader.close();
             writer.close();
-            out.close();
+            File htmlFile = new File("webpage.html");
+            if (Desktop.isDesktopSupported()) {
+                Desktop.getDesktop().browse(htmlFile.toURI());
+            } else {
+                System.out.println("Desktop not supported. Please open webpage.html manually.");
+            }
 
-            File html = new File("webpage.html");
-            Desktop.getDesktop().browse(html.toURI());
-
-            String  path= new File("webpage.html").getAbsolutePath();
-            String command = "cmd /c start chrome \"" + path + "\"";
-            Runtime.getRuntime().exec(command);
-
+            System.out.println("✅ Webpage saved and opened successfully!");
 
         } catch (Exception e) {
-            System.out.println(e.getMessage());
+            System.out.println("❌ Error: " + e.getMessage());
         }
-
     }
-
 }
