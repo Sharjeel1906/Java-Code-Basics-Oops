@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pract",
+            "request": "launch",
+            "mainClass": "lambda_anonymas.pract",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "anonymas_func",
+            "request": "launch",
+            "mainClass": "lambda_anonymas.anonymas_func",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "lambda_func",
+            "request": "launch",
+            "mainClass": "lambda_anonymas.lambda_func",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "H",
+            "request": "launch",
+            "mainClass": "H",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
             "name": "Bit_wise_oper",
             "request": "launch",
             "mainClass": "Bit_wise_oper",
