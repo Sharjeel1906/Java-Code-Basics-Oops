@@ -45,6 +45,7 @@ public class Bit_wise_oper {
         int i = h << 1;
         System.out.println(Integer.toBinaryString(i)); // 1000
         // Left shift by 1 moves bits left → multiply by 2
+        // 4 << n = 4 * 2^n
         // 4 << 1 = 8
         System.out.println(i); // Output: 8
         System.out.println(h); // Original remains 4
@@ -54,6 +55,7 @@ public class Bit_wise_oper {
         int k = j >> 1;
         System.out.println(Integer.toBinaryString(k)); // 10
         // Right shift by 1 moves bits right → divide by 2
+        // 4 >> n = 4/2^n
         // 4 >> 1 = 2
         System.out.println(k); // Output: 2
         System.out.println(j); // Original remains 4

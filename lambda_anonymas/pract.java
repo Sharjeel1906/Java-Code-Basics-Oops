@@ -56,13 +56,13 @@ public class pract {
             if(combine.test(s)){
                 System.out.println(s.name);
             }
-            // if(highmarks.test(s)){
-            //     System.out.println(s.name);
-            // }else if(age.test(s)){
-            //     System.out.println(s.name);
-            // }else if(name.test(s)){
-            //     System.out.println(s.name);
-            // }
+            if(highmarks.test(s)){
+                System.out.println(s.name);
+            }else if(age.test(s)){
+                System.out.println(s.name);
+            }else if(name.test(s)){
+                System.out.println(s.name);
+            }
         }
     }
     
