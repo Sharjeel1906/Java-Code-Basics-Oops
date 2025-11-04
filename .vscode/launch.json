@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Ticket_booking",
+            "request": "launch",
+            "mainClass": "Threads.Ticket_booking",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "practice",
+            "request": "launch",
+            "mainClass": "Threads.practice",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "classes.University_mang_system.Main",
