@@ -6,6 +6,125 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Smtp_client",
+            "request": "launch",
+            "mainClass": "Smtp_client",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Smtp_server",
+            "request": "launch",
+            "mainClass": "Smtp_server",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "SMTPClient",
+            "request": "launch",
+            "mainClass": "SMTPClient",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "SMTPServer",
+            "request": "launch",
+            "mainClass": "SMTPServer",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "selection_sort",
+            "request": "launch",
+            "mainClass": "selection_sort",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "bubble_sort",
+            "request": "launch",
+            "mainClass": "bubble_sort",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Linear_search",
+            "request": "launch",
+            "mainClass": "Linear_search",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "chat_client",
+            "request": "launch",
+            "mainClass": "Azan_chat_box.chat_client",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "chat_server",
+            "request": "launch",
+            "mainClass": "Azan_chat_box.chat_server",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "client",
+            "request": "launch",
+            "mainClass": "pract_tcp_multi.client",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "server",
+            "request": "launch",
+            "mainClass": "pract_tcp_multi.server",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "client1",
+            "request": "launch",
+            "mainClass": "client1",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "server",
+            "request": "launch",
+            "mainClass": "server",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "client",
+            "request": "launch",
+            "mainClass": "calculator_server.client",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "server",
+            "request": "launch",
+            "mainClass": "calculator_server.server",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "client_server_simple.Server",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "client_server_simple.Client",
+            "projectName": "java_projects(1)_837279c4"
+        },
+        {
+            "type": "java",
             "name": "Ticket_booking",
             "request": "launch",
             "mainClass": "Threads.Ticket_booking",
